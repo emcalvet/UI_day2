@@ -2,8 +2,17 @@
   xborder : 1px blue dotted;
 }
 
+
+/* EVENT CARDS */
+
 .event-card {
-  width: 28rem;
+  max-width: 28rem;
+  min-width: 15rem;
+}
+
+.card-subtitle {
+  color: #809395;
+  margin: 0.25rem 1rem 0.5rem 1rem;
 }
 
 .event-card-body {
@@ -11,18 +20,42 @@
 }
 
 .event-card-date {
-  width: 8rem;
-  height: 100%;
-  padding-left: 2px;
-  padding-right: 2px;
+  display: flex;
+  align-items: center;
+  width: 10rem;
+  color: #2C3E50;
+  margin-right: 1.25rem;
   text-align: center;
-  align-items: center
 }
 
 .event-card-content > div {
   text-align: center;
 }
 
+.event-card-content > p {
+  text-align: justify;
+  margin-bottom: 1.3rem;
+}
+
 .event-card-content > h5 {
   margin-bottom: 0.3rem;
+  color: #2C3E50;
+  font-weight: bold;
+}
+
+.event-card-content > h6 {
+  font-variant-caps: small-caps;
+}
+
+/* USER CARDS */
+
+.user-card-body {
+  display: flex;
+}
+
+.user-card-pic {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+
 }
