@@ -1,3 +1,33 @@
+
+* {
+  xborder : 1px blue dotted;
+}
+
+.event-card {
+  width: 28rem;
+}
+
+.event-card-body {
+  display: flex;
+}
+
+.event-card-date {
+  width: 8rem;
+  height: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  align-items: center
+}
+
+.event-card-content > div {
+  text-align: center;
+}
+
+.event-card-content > h5 {
+  margin-bottom: 0.3rem;
+}
+
 #form-authenticate{
 	background-image: url("https://images.unsplash.com/photo-1458891216473-4f26bb4eb40e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
 	margin-top: 100px;
@@ -52,6 +82,7 @@
 	font-size: 50px;
 }
 
+<<<<<<< HEAD
 * {
   xborder : 1px blue dotted;
 }
@@ -80,3 +111,4 @@
 .event-card-content > h5 {
   margin-bottom: 0.3rem;
 }
+
