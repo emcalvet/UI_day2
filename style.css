@@ -182,3 +182,17 @@ div.b {
  margin-bottom: 0.3rem;
 }
 
+.comment-display {
+  display: flex;
+}
+
+.comment-display > img {
+  height: 75px; 
+  width: 75px;
+  margin-right: 1em;
+}
+
+.comment-input > div {
+  display: flex;
+  justify-content: flex-end;
+}
