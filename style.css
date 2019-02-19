@@ -1,4 +1,5 @@
 
+
 *{
    border: 1px blue dotted; */
 }
@@ -67,3 +68,118 @@ li {
 div.b {
     
 }
+
+* {
+  xborder : 1px blue dotted;
+}
+
+.event-card {
+  width: 28rem;
+}
+
+.event-card-body {
+  display: flex;
+}
+
+.event-card-date {
+  width: 8rem;
+  height: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  align-items: center
+}
+
+.event-card-content > div {
+  text-align: center;
+}
+
+.event-card-content > h5 {
+  margin-bottom: 0.3rem;
+}
+
+#form-authenticate{
+	background-image: url("https://images.unsplash.com/photo-1458891216473-4f26bb4eb40e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+	margin-top: 100px;
+	padding: 100px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	color: white;
+	
+}
+
+.form-control{
+	border-style: none;
+	margin-left: 5px;
+	color: white;
+}
+.icon-form{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+	border: 1px solid grey;
+	border-radius: 20px;
+	border-radius-right: 20px;
+
+}
+
+.form-text{
+	display: flex;
+	align-items: flex-end;
+}
+
+.form-control:focus{
+	border: none;
+	border-radius-right: 20px;
+
+}
+.fa-at{
+	color: grey;
+}
+
+.fa-lock{
+	color: grey;
+}
+
+.form-check{
+	padding: 15px;
+	display: flex;
+}
+
+.title-sign {
+	text-align: center;
+	font-size: 50px;
+}
+
+
+* {
+  xborder : 1px blue dotted;
+}
+
+.event-card {
+  width: 28rem;
+}
+
+.event-card-body {
+  display: flex;
+}
+
+.event-card-date {
+  width: 8rem;
+  height: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  align-items: center
+}
+
+.event-card-content > div {
+  text-align: center;
+}
+
+.event-card-content > h5 {
+  margin-bottom: 0.3rem;
+}
+
+
