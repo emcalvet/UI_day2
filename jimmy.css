@@ -7,11 +7,25 @@
   background: transparent;
 }
 .my-banner {
+  font-size: 1.5em; /* ~ 14px */
+  line-height: 1.5; /* adapt to your design */
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
+
   background-image: url("https://image.noelshack.com/fichiers/2019/08/2/1550594872-test-banner.jpeg");
   background-size: 100%
+  
 }
 
-
+.my-mini-banner {
+  font-size: 1.5em; /* ~ 14px */
+  line-height: 1.5; /* adapt to your design */
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  background-image: url("https://image.noelshack.com/fichiers/2019/08/2/1550594872-test-banner.jpeg");
+  color: #06a77d;
+  border: 1px, #FFFFFF;
+}
 
 /* Footer */ 
 
