@@ -1,0 +1,75 @@
+/* COMME CA PAS DE SOUCIS DE FICHIER DE MORT */
+
+
+
+/* Banners */
+.jumbotron {
+  background: transparent;
+}
+.my-banner {
+  font-size: 1.5em; /* ~ 14px */
+  line-height: 1.5; /* adapt to your design */
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
+
+  background-image: url("https://image.noelshack.com/fichiers/2019/08/2/1550594872-test-banner.jpeg");
+  background-size: 100%
+  
+}
+
+.my-mini-banner {
+  font-size: 1.5em; /* ~ 14px */
+  line-height: 1.5; /* adapt to your design */
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  background-image: url("https://image.noelshack.com/fichiers/2019/08/2/1550594872-test-banner.jpeg");
+  color: #06a77d;
+  border: 1px, #FFFFFF;
+}
+
+/* Footer */ 
+
+.my-footer-container {
+  background-color: #08274d;
+  font-size: 1.5em; /* ~ 14px */
+  line-height: 1.5; /* adapt to your design */
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.my-footer {
+  background-color: #08274d;
+  font-size: 1.5em; /* ~ 14px */
+  line-height: 1.5; /* adapt to your design */
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color:    #B61d56;
+}
+
+
+
+/* COLOR */
+.txt-white {color: #fff;}
+.txt-black {color: black;}
+
+.primary {background-color:  #195ba5;}
+.text-primary {color: #195ba5;}
+.secondary {background-color:  #B61d56;}
+.text-secondary {color: #B61d56;}
+.warning {background-color:  #e9b321;}
+.text-warning {color: #e9b321;}
+.danger {background-color:  #95190c;}
+.text-danger {color: #95190c;}
+.success {background-color:  #06a77d;}
+.text-success {color: #06a77d;}
+.info {background-color:  #610345;}
+.text-info {color: #610345;}
+
+.dark {background-color: #2E2E2E;}
+.text-dark {color: #2E2E2E;}
+.grey {background-color: #616161;}
+.text-grey {color: #616161;}
+.light-grey {background-color: #A6A6A6;}
+.text-light-grey {color: #A6A6A6;}
+
