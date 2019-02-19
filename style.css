@@ -23,24 +23,18 @@ a.navbar-brand { /* Event brite */
 }
 #navbarDropdownMenuLink{ /* Profil */
     color: whitesmoke;
-    display: flex;
-    align-items: center;
+
 }
 html {
    /* background-image: url("https://cdn.pixabay.com/photo/2017/01/31/19/41/badge-2026769_1280.png"); */
 
 }
+
 img { /* Logo */
     width: 70px;
     height:70px; 
 }
-ul {
 
-}
-li {
-  
-
-}
 .btn-nav-profil {
     padding-top: 2%;
 }
@@ -49,7 +43,7 @@ li {
  
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-bottom: 10px;
+
 
 }
 
@@ -108,11 +102,14 @@ div.b {
 	
 }
 
-.form-control{
-	border-style: none;
-	margin-left: 5px;
-	color: white;
+
+.form-log{
+  border-style: none;
+  margin-left: 5px;
+  color: white;
 }
+
+
 .icon-form{
 	background-color: white;
 	display: flex;
@@ -129,8 +126,8 @@ div.b {
 	align-items: flex-end;
 }
 
-.form-control:focus{
-	border: none;
+.form-log:focus{
+
 	border-radius-right: 20px;
 
 }
@@ -183,3 +180,7 @@ div.b {
 }
 
 
+.profile{
+    align-items: center;
+    padding: auto;
+}
