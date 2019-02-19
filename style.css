@@ -127,7 +127,6 @@ img { /* Logo */
 }
 
 .form-log:focus{
-
 	border-radius-right: 20px;
 
 }
@@ -185,7 +184,6 @@ img { /* Logo */
  }
  
  .form-control{
-  border-style: none;
   margin-left: 5px;
   color: white;
  }
