@@ -1,0 +1,69 @@
+
+*{
+   border: 1px blue dotted; */
+}
+nav {
+    background-color: rgb(223, 224, 235);
+    box-shadow: 1px 1px 12px #555;
+   
+}
+
+.nav-link {  /* --> home/feature/pricing/about */
+   font-size: 120%;
+}
+
+a {
+    font-weight: bolder
+}
+a.navbar-brand { /* Event brite */
+    margin-left: 12px;
+    font-size: 160%;
+    
+}
+#navbarDropdownMenuLink{ /* Profil */
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+html {
+   /* background-image: url("https://cdn.pixabay.com/photo/2017/01/31/19/41/badge-2026769_1280.png"); */
+
+}
+img { /* Logo */
+    width: 70px;
+    height:70px; 
+}
+ul {
+
+}
+li {
+  
+
+}
+.btn-nav-profil {
+    padding-top: 2%;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+ 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+
+}
+
+.card.city-card {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5f/La_ville_de_Sydney_vue_du_port.JPG"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+}
+.container2 {
+    height: 300px;
+    width: 50px;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+div.b {
+    
+}
