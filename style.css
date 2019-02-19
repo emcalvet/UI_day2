@@ -52,3 +52,31 @@
 	font-size: 50px;
 }
 
+* {
+  xborder : 1px blue dotted;
+}
+
+.event-card {
+  width: 28rem;
+}
+
+.event-card-body {
+  display: flex;
+}
+
+.event-card-date {
+  width: 8rem;
+  height: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  align-items: center
+}
+
+.event-card-content > div {
+  text-align: center;
+}
+
+.event-card-content > h5 {
+  margin-bottom: 0.3rem;
+}
