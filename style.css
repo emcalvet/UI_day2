@@ -1,116 +1,60 @@
+/* NAVABAR */
 
 nav {
    background-color: rgb(223, 224, 235);
    box-shadow: 1px 1px 12px #555;
-  
 }
 
-.nav-link {  /* --> home/feature/pricing/about */
+.nav-link {
   font-size: 120%;
 }
 
 a {
-   font-weight: bolder
+  font-weight: bolder
 }
-a.navbar-brand { /* Event brite */
-   margin-left: 12px;
-   font-size: 160%;
-   
-}
-#navbarDropdownMenuLink{ /* Profil */
-   color: whitesmoke;
-   display: flex;
-   align-items: center;
-}
-html {
-  /* background-image: url("https://cdn.pixabay.com/photo/2017/01/31/19/41/badge-2026769_1280.png"); */
 
+a.navbar-brand { /* Event brite */
+  margin-left: 12px;
+  font-size: 160%;
 }
+
+#navbarDropdownMenuLink{ /* Profil */
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+
 img { /* Logo */
    width: 70px;
    height:70px; 
 }
 
 .btn-nav-profil {
-   padding-top: 2%;
+  padding-top: 2%;
 }
 
 .navbar.navbar-expand-lg.navbar-light {
-
- padding-top: 5px;
- padding-bottom: 5px;
- margin-bottom: 10px;
-
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
+
+
+/* CITY CARDS */
 
 .card.city-card {
-   background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5f/La_ville_de_Sydney_vue_du_port.JPG"); 
-   background-repeat: no-repeat;
-   background-size: contain;
-   border: none;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5f/La_ville_de_Sydney_vue_du_port.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
 }
+
 .container2 {
-   height: 300px;
-   width: 50px;
-   justify-content: flex-start;
-   padding-top: 20px;
+  height: 300px;
+  width: 50px;
+  justify-content: flex-start;
+  padding-top: 20px;
 }
-
-
-#form-authenticate{
- background-image: url("https://images.unsplash.com/photo-1458891216473-4f26bb4eb40e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
- margin-top: 100px;
- padding: 100px;
- padding-top: 100px;
- padding-bottom: 50px;
- color: white;
- 
-}
-
-.form-control{
- border-style: none;
- margin-left: 5px;
- color: white;
-}
-.icon-form{
- background-color: white;
- display: flex;
- align-items: center;
- padding-left: 15px;
- border: 1px solid grey;
- border-radius: 20px;
- border-radius-right: 20px;
-
-}
-
-.form-text{
- display: flex;
- align-items: flex-end;
-}
-
-.form-control:focus{
- border: none;
- border-radius-right: 20px;
-
-}
-.fa-at{
- color: grey;
-}
-
-.fa-lock{
- color: grey;
-}
-
-.form-check{
- padding: 15px;
- display: flex;
-}
-
-.title-sign {
- text-align: center;
- font-size: 50px;
-}
-
 
 /* EVENT CARDS */
 
@@ -120,13 +64,13 @@ img { /* Logo */
   border-radius: 12px;
 }
 
+.event-card-body {
+ display: flex;
+}
+
 .card-subtitle {
   color: #809395;
   margin: 0.25rem 1rem 0.5rem 1rem;
-}
-
-.event-card-body {
- display: flex;
 }
 
 .event-card-date {
@@ -136,10 +80,6 @@ img { /* Logo */
   color: #2C3E50;
   margin-right: 1.25rem;
   text-align: center;
-}
-
-.event-card-content > div {
- text-align: center;
 }
 
 .event-card-content > h5 {
@@ -157,18 +97,16 @@ img { /* Logo */
   margin-bottom: 1.3rem;
 }
 
+.event-card-content > div {
+  text-align: center;
+ }
 
 /* USER CARDS */
-
 
 .user-card {
   max-width: 38rem;
   min-width: 15rem;
   border-radius: 12px;
-}
-
-.user-card-body {
-  display: flex;
 }
 
 .user-card-pic {
@@ -183,11 +121,14 @@ img { /* Logo */
   height: 75px;
 }
 
+.user-card-body {
+  display: flex;
+}
+
 .user-card-content > p {
   text-align: justify;
   font-style: italic;
 }
-
 
 /* COMMENTS */
 
@@ -204,4 +145,77 @@ img { /* Logo */
 .comment-input > div {
   display: flex;
   justify-content: flex-end;
+}
+
+/* FORMS */
+
+#form-authenticate{
+  max-width: 58rem;
+  min-width: 30rem;
+  background-image: url("https://images.unsplash.com/photo-1458891216473-4f26bb4eb40e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  margin-top: 100px;
+  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: white;
+}
+ 
+.form-control{
+  margin-left: 5px;
+  color: white;
+}
+ 
+ .icon-form{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+ 
+.form-text{
+  display: flex;
+  align-items: flex-end;
+}
+ 
+.form-control:focus{
+  border: none;
+}
+
+.fa-at{
+  color: grey;
+}
+ 
+.fa-lock{
+  color: grey;
+}
+ 
+.form-check{
+  padding: 15px;
+  display: flex;
+}
+ 
+.title-sign {
+  text-align: center;
+}
+
+.profile{
+  align-items: center;
+  padding: auto;
+}
+
+.form-log{
+  border-style: none;
+  margin-left: 5px;
+  color: white;
+}
+
+/* Footer */ 
+
+.my-footer {
+  background-color: #2C3E50;
+  font-size: 1.2em; /* ~ 14px */
+  line-height: 1.5; /* adapt to your design */
+  color: #f2f2f2;
 }
