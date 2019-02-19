@@ -8,6 +8,7 @@
 .event-card {
   max-width: 28rem;
   min-width: 15rem;
+  border-radius: 12px;
 }
 
 .card-subtitle {
@@ -28,13 +29,13 @@
   text-align: center;
 }
 
-.event-card-content > div {
-  text-align: center;
-}
-
 .event-card-content > p {
   text-align: justify;
   margin-bottom: 1.3rem;
+}
+
+.event-card-content > div {
+  text-align: center;
 }
 
 .event-card-content > h5 {
@@ -49,13 +50,30 @@
 
 /* USER CARDS */
 
+
+.user-card {
+  max-width: 38rem;
+  min-width: 15rem;
+  border-radius: 12px;
+}
+
 .user-card-body {
   display: flex;
 }
 
 .user-card-pic {
   display: flex;
+  margin-right: 1.25rem;
+  width: 5rem;
   align-items: center;
-  width: 10rem;
+}
 
+.user-card-pic > img {
+  width: 75px;
+  height: 75px;
+}
+
+.user-card-content > p {
+  text-align: justify;
+  font-style: italic;
 }
