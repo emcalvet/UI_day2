@@ -1,4 +1,10 @@
-/* NAVABAR */
+/* GENERAL */
+
+body h2 {
+  margin-top: 1.5rem;
+}
+
+/* NAVBAR */
 
 nav {
    background-color: rgb(223, 224, 235);
@@ -9,7 +15,7 @@ nav {
   font-size: 120%;
 }
 
-a {
+nav a {
   font-weight: bolder
 }
 
@@ -24,7 +30,7 @@ a.navbar-brand { /* Event brite */
   align-items: center;
 }
 
-img { /* Logo */
+.img-logo { /* Logo */
    width: 70px;
    height:70px; 
 }
@@ -40,37 +46,28 @@ img { /* Logo */
 }
 
 
-/* CITY CARDS */
-
-.card.city-card {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5f/La_ville_de_Sydney_vue_du_port.JPG"); 
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: none;
-}
-
-.container2 {
-  height: 300px;
-  width: 50px;
-  justify-content: flex-start;
-  padding-top: 20px;
-}
+/* CARDS */
 
 /* EVENT CARDS */
 
-.event-card {
+.card.event-card {
   max-width: 28rem;
   min-width: 15rem;
   border-radius: 12px;
+  margin-bottom: 1.75rem;
 }
 
 .event-card-body {
  display: flex;
 }
 
-.card-subtitle {
+.card h6 {
   color: #809395;
-  margin: 0.25rem 1rem 0.5rem 1rem;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  font-variant-caps: small-caps;
 }
 
 .event-card-date {
@@ -88,10 +85,6 @@ img { /* Logo */
   font-weight: bold;
 }
 
-.event-card-content > h6 {
-  font-variant-caps: small-caps;
-}
-
 .event-card-content > p {
   text-align: justify;
   margin-bottom: 1.3rem;
@@ -103,7 +96,7 @@ img { /* Logo */
 
 /* USER CARDS */
 
-.user-card {
+.card.user-card {
   max-width: 38rem;
   min-width: 15rem;
   border-radius: 12px;
@@ -130,6 +123,44 @@ img { /* Logo */
   font-style: italic;
 }
 
+/* CITY CARDS */
+
+.city-card {
+  width: 18rem;
+  height: 12rem;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5f/La_ville_de_Sydney_vue_du_port.JPG"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  border-radius: 12px;
+}
+
+.city-card-body {
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.city-card-content {
+  display: flex;
+  align-items: center;
+}
+
+.city-card-content > .card-title {
+  margin-bottom: 0rem;
+}
+
+.city-card-content > .card-subtitle {
+  color: #f2f2f2;
+  margin: 0rem 0.8rem;
+}
+
+/* LISTES */
+
+body .list-group-item {
+  padding: 0.4rem 1.2rem;
+}
+
+
 /* COMMENTS */
 
 .comment-display {
@@ -146,6 +177,11 @@ img { /* Logo */
   display: flex;
   justify-content: flex-end;
 }
+
+.comment-input button {
+  margin-top : 1rem;
+}
+
 
 /* FORMS */
 
@@ -211,11 +247,72 @@ img { /* Logo */
   color: white;
 }
 
-/* Footer */ 
+
+/* PREZ ELEMENTS */
+
+.line-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.img-line-1 {
+  height: 55%; 
+  width: 55%;
+}
+
+.img-line-2 {
+  height: 55%; 
+  width: 55%;
+}
+
+.text-1 {
+  margin-left: 7em;
+}
+
+.text-2 {
+  margin-right: 7em;
+}
+
+
+/* BANNERS */
+
+.jumbotron {
+  background: transparent;
+}
+
+.my-banner {
+  font-size: 1.5em; /* ~ 14px */
+  line-height: 1.5; /* adapt to your design */
+  color: #f2f2f2;
+
+  background-image: url("https://image.noelshack.com/fichiers/2019/08/2/1550594872-test-banner.jpeg");
+  background-size: 100%;
+}
+
+.my-mini-banner {
+  font-size: 1.5em; /* ~ 14px */
+  line-height: 1.5; /* adapt to your design */
+  background-image: url("https://image.noelshack.com/fichiers/2019/08/2/1550594872-test-banner.jpeg");
+  color: #149a80;
+}
+
+
+/* FOOTER */ 
 
 .my-footer {
   background-color: #2C3E50;
-  font-size: 1.2em; /* ~ 14px */
-  line-height: 1.5; /* adapt to your design */
-  color: #f2f2f2;
+  font-size: 1em;
+  color: #149a80;
+}
+
+.my-footer a {
+  color: #ecf0f1;
 }
